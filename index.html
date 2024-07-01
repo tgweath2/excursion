@@ -3,29 +3,39 @@
 <head>
   <title>Excursion</title>
   <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="stylesheet" href="./resources/media/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8"> 
 </head>
   <body>
     <header>
       <h1>Discover hidden places in the world around you</h1>
-      <a href="#">Download Excursion (Coming soon!)</a>
+      <div class="link">
+        <a href="#">Download Excursion (Coming soon!)</a>
+      </div>
     </header>
     <div class="iphone">
-      <video>
+      <video loop autoplay muted>
         <source src="./resources/media/excursion.mp4" type="video/mp4">
+        <source src="./resources/media/excursion.ogg" type="video/ogg">
         Your Browser does not support the video tag
       </video>
     </div>
     <div class="guide">
       <h2>Your personal travel guide</h2>
       <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-      <img src="#", alt="tents camped in a desert"/>
+      <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg", alt="tents camped in a desert"/>
     </div>
-    <footer class="comingsoon">
-      <img src="#", alt="stock smart phone image"/>
-      <h2>Coming Soon for iPhone and Android</h2>
-      <a href="#">Download Excursion (Coming soon!)</a>
+    <footer>
+      <div class="phoneicon">
+        <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png", alt="stock smart phone image"/>
+      </div>
+      <div class="comingsoon">
+        <h2>Coming Soon for iPhone and Android</h2>
+      </div>
+      <div class="link">
+        <a href="#">Download Excursion (Coming soon!)</a>
+      </div>
     </footer>
     <div class="copyright">
       <h4>&copy; Excursion</h4>

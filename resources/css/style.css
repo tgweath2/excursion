@@ -2,20 +2,58 @@ html{
   background-color: black;
 }
 
-header{
-  font-family: Verdana;
-  justify-content: center;
-}
-
-header h1{
+h1{
+  font-family: verdana;
   font-size: 50px;
   font-weight: normal;
   color: white;
   text-align: center;
 }
 
-header a{
-  font-size: 16px;
+p{
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+}
+
+a{
   color: aquamarine;
+}
+.link{
+  font-family: Verdana;
+  font-size: 16px;
   text-align: center;
+}
+
+.iphone{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.guide{
+  font-weight:300;
+  font-size: 42px;
+  justify-content: center;
+  text-align: center;
+}
+
+.phoneicon{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-size: 42px;
+  font-family: verdana;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.copyright{
+  font-family: verdana;
+  color: gray;
+  text-align: right;
 }
