@@ -1,0 +1,20 @@
+html{
+  background-color: black;
+}
+
+header{
+  font-family: Verdana;
+  font-weight: normal;
+  justifty-content: center;
+}
+
+header h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+header a{
+  font-size: 16px;
+  color: aquamarine;
+}
